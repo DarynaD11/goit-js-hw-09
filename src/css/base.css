@@ -30,3 +30,14 @@ main {
 main:has(.back-link) {
   text-align: center;
 }
+
+.nav-link > li {
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 42px;
+
+  &:hover {
+    text-decoration: underline;
+    color: blueviolet;
+  }
+}
